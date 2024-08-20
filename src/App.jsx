@@ -1,16 +1,12 @@
-import PuppyCard from './components/PuppyCard'
-import {
-    ChakraProvider,
-} from '@chakra-ui/react'
-
+import { ChakraProvider } from '@chakra-ui/react'
+import Home from "./pages/Home.jsx";
 
 
 function App() {
 
-
   return (
       <ChakraProvider>
-          <PuppyCard />
+          <Home />
       </ChakraProvider>
   )
 }
